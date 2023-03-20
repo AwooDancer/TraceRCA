@@ -9,7 +9,8 @@ import ast
 from tqdm import tqdm
 from numba import jit
 
-from data.trainticket.download import simple_name
+# from data.trainticket.download import simple_name
+from simple_name import simple_name
 from trainticket_config import INVOLVED_SERVICES
 
 FAULT_TYPES = {'delay', 'abort', 'cpu'}

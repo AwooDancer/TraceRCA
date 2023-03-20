@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
-# from diskcache import Cache
+from diskcache import Cache
 
 DEBUG = True
 

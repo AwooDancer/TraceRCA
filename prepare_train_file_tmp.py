@@ -8,8 +8,8 @@ from tqdm import tqdm
 
 
 def main():
-    train_dir = Path('train')
-    test_dir = Path('test')
+    train_dir = Path('E:/workspace/workspace_pycharm/data_of_tracerca/train')
+    test_dir = Path('E:/workspace/workspace_pycharm/data_of_tracerca/test')
     for test_file in tqdm(list(test_dir.glob("*.pkl"))):
         with open(str(test_file), 'rb') as f:
             test_data = pickle.load(f)

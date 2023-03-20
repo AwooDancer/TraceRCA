@@ -8,7 +8,8 @@ import pandas as pd
 from pathlib import Path
 from loguru import logger
 
-from data.trainticket.download import simple_name
+# from data.trainticket.download import simple_name
+from simple_name import simple_name
 from trainticket_config import *
 
 """

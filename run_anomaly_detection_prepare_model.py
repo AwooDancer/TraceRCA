@@ -6,7 +6,7 @@ from loguru import logger
 from sklearn.ensemble import RandomForestClassifier, IsolationForest
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
-from imblearn.under_sampling import RandomUnderSampler
+# from imblearn.under_sampling import RandomUnderSampler
 from trainticket_config import FEATURE_NAMES
 
 

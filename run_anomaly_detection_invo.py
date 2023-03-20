@@ -7,7 +7,7 @@ import numpy as np
 from sklearn.ensemble import IsolationForest
 from loguru import logger
 from trainticket_config import FEATURE_NAMES
-from diskcache import Cache
+# from diskcache import Cache
 
 DEBUG = True
 
